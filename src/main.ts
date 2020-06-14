@@ -3,8 +3,16 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 import vuetify from "./plugins/vuetify";
+import VueGtag from "vue-gtag";
 
 Vue.config.productionTip = false;
+
+// https://matteo-gabriele.gitbook.io/vue-gtag/
+if (process.env.NODE_ENV === "production") {
+  Vue.use(VueGtag, {
+    config: { id: "UA-48068232-3" }
+  });
+}
 
 new Vue({
   router,

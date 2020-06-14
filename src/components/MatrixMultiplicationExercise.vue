@@ -27,8 +27,8 @@
 </template>
 
 <script lang="ts">
-import { Component, Prop, Watch, Vue } from "vue-property-decorator";
-import {Matrix, MatrixItem, randomMatrix} from "@/common/matrix";
+import { Component, Prop, Vue } from "vue-property-decorator";
+import { Matrix, randomMatrix } from "@/common/matrix";
 import { Exercise } from "@/common/exercise";
 import MatrixCard from "@/components/MatrixCard.vue";
 

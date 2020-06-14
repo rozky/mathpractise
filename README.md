@@ -1,5 +1,7 @@
 # mathpractise
 
+[Demo - https://rozky.github.io/mathpractise](https://rozky.github.io/mathpractise)
+
 ## Project setup
 ```
 yarn install

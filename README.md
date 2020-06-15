@@ -2,6 +2,11 @@
 
 [Demo - https://rozky.github.io/mathpractise](https://rozky.github.io/mathpractise)
 
+TODO
+
+ * add exercises for other matrix operations, check https://matrix.reshish.com/
+
+
 ## Project setup
 ```
 yarn install
